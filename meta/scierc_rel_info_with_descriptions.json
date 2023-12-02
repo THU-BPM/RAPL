@@ -1,0 +1,30 @@
+{
+    "HYPONYM-OF": {
+        "name": "hyponym of",
+        "description": "subject is a hyponym of the object; subject is a type of the object."
+    },
+    "PART-OF": {
+        "name": "part of",
+        "description": "subject is a part of the object."
+    },
+    "USED-FOR": {
+        "name": "used for",
+        "description": "subject is used for the object; subject models the object; object is trained on the subject; subject exploits the object; object is based on the subject."
+    },
+    "COMPARE": {
+        "name": "compare",
+        "description": "compare two models/methods, or listing two opposing entities."
+    },
+    "EVALUATE-FOR": {
+        "name": "evaluate for",
+        "description": "evaluate for"
+    },
+    "FEATURE-OF": {
+        "name": "feature of",
+        "description": "subject belongs to the object; subject is a feature of the object; subject is under the object domain."
+    },
+    "CONJUNCTION": {
+        "name": "conjunction",
+        "description": "function as similar role or use/incorporate with."
+    }
+}

@@ -1,0 +1,386 @@
+{
+    "P6": {
+        "name": "head of government",
+        "description": "head of the executive power of this town, city, municipality, state, country, or other governmental body"
+    },
+    "P17": {
+        "name": "country",
+        "description": "sovereign state of this item; don't use on humans"
+    },
+    "P19": {
+        "name": "place of birth",
+        "description": "most specific known (e.g. city instead of country, or hospital instead of city) birth location of a person, animal or fictional character"
+    },
+    "P20": {
+        "name": "place of death",
+        "description": "most specific known (e.g. city instead of country, or hospital instead of city) death location of a person, animal or fictional character"
+    },
+    "P22": {
+        "name": "father",
+        "description": "male parent of the subject"
+    },
+    "P25": {
+        "name": "mother",
+        "description": "female parent of the subject"
+    },
+    "P26": {
+        "name": "spouse",
+        "description": "the subject has the object as their spouse (husband, wife, partner, etc.)"
+    },
+    "P27": {
+        "name": "country of citizenship",
+        "description": "the object is a country that recognizes the subject as its citizen"
+    },
+    "P30": {
+        "name": "continent",
+        "description": "continent of which the subject is a part"
+    },
+    "P31": {
+        "name": "instance of",
+        "description": "that class of which this subject is a particular example and member. (Subject typically an individual member with Proper Name label.)"
+    },
+    "P35": {
+        "name": "head of state",
+        "description": "official with the highest formal authority in a country/state"
+    },
+    "P36": {
+        "name": "capital",
+        "description": "primary city of a country, state or other type of administrative territorial entity"
+    },
+    "P37": {
+        "name": "official language",
+        "description": "language designated as official by this item"
+    },
+    "P39": {
+        "name": "position held",
+        "description": "subject currently or formerly holds the object position or public office"
+    },
+    "P40": {
+        "name": "child",
+        "description": "subject has the object in their family as their offspring son or daughter (independently of their age)"
+    },
+    "P50": {
+        "name": "author",
+        "description": "main creator(s) of a written work (use on works, not humans)"
+    },
+    "P54": {
+        "name": "member of sports team",
+        "description": "sports teams or clubs that the subject currently represents or formerly represented"
+    },
+    "P57": {
+        "name": "director",
+        "description": "director(s) of this motion picture, TV-series, stageplay, video game or similar"
+    },
+    "P58": {
+        "name": "screenwriter",
+        "description": "author(s) of the screenplay or script for this work"
+    },
+    "P69": {
+        "name": "educated at",
+        "description": "educational institution attended by the subject"
+    },
+    "P86": {
+        "name": "composer",
+        "description": "person(s) who wrote the music"
+    },
+    "P102": {
+        "name": "member of political party",
+        "description": "the political party of which this politician is or has been a member"
+    },
+    "P108": {
+        "name": "employer",
+        "description": "person or organization for which the subject works or worked"
+    },
+    "P112": {
+        "name": "founded by",
+        "description": "founder or co-founder of this organization, religion or place"
+    },
+    "P118": {
+        "name": "league",
+        "description": "league in which team or player plays or has played in"
+    },
+    "P123": {
+        "name": "publisher",
+        "description": "organization or person responsible for publishing books, periodicals, games or software"
+    },
+    "P127": {
+        "name": "owned by",
+        "description": "owner of the subject"
+    },
+    "P131": {
+        "name": "located in the administrative territorial entity",
+        "description": "the item is located on the territory of the following administrative entity"
+    },
+    "P136": {
+        "name": "genre",
+        "description": "a creative work's genre or an artist's field of work"
+    },
+    "P137": {
+        "name": "operator",
+        "description": "person or organization that operates the equipment, facility, or service"
+    },
+    "P140": {
+        "name": "religion",
+        "description": "religion of a person, organization or religious building, or associated with this subject"
+    },
+    "P150": {
+        "name": "contains administrative territorial entity",
+        "description": "(list of) direct subdivisions of an administrative territorial entity"
+    },
+    "P155": {
+        "name": "follows",
+        "description": "immediately prior item in some series of which the subject is part"
+    },
+    "P156": {
+        "name": "followed by",
+        "description": "immediately following item in some series of which the subject is part"
+    },
+    "P159": {
+        "name": "headquarters location",
+        "description": "specific location where an organization's headquarters is or has been situated"
+    },
+    "P161": {
+        "name": "cast member",
+        "description": "actor performing live for a camera or audience"
+    },
+    "P162": {
+        "name": "producer",
+        "description": "producer(s) of this film or music work (film: not executive producers, associate producers, etc.)"
+    },
+    "P166": {
+        "name": "award received",
+        "description": "award or recognition received by a person, organisation or creative work"
+    },
+    "P170": {
+        "name": "creator",
+        "description": "maker of a creative work or other object (where no more specific property exists)"
+    },
+    "P171": {
+        "name": "parent taxon",
+        "description": "closest parent taxon of the taxon in question"
+    },
+    "P172": {
+        "name": "ethnic group",
+        "description": "subject's ethnicity (consensus is that a VERY high standard of proof is needed for this field to be used. In general this means 1) the subject claims it him/herself, or 2) it is widely agreed on by scholars, or 3) is fictional and portrayed as such)."
+    },
+    "P175": {
+        "name": "performer",
+        "description": "performer involved in the performance or the recording of a work"
+    },
+    "P176": {
+        "name": "manufacturer",
+        "description": "manufacturer or producer of this product"
+    },
+    "P178": {
+        "name": "developer",
+        "description": "organisation or person that developed this item"
+    },
+    "P179": {
+        "name": "series",
+        "description": "subject is part of a series, whose sum constitutes the object"
+    },
+    "P190": {
+        "name": "sister city",
+        "description": "twin towns, sister cities, twinned municipalities and other localities that have a partnership or cooperative agreement, either legally or informally acknowledged by their governments"
+    },
+    "P194": {
+        "name": "legislative body",
+        "description": "legislative body governing this entity; political institution with elected representatives, such as a parliament/legislature or council"
+    },
+    "P205": {
+        "name": "basin country",
+        "description": "country that have drainage to/from or border the body of water"
+    },
+    "P206": {
+        "name": "located in or next to body of water",
+        "description": "sea, lake or river"
+    },
+    "P241": {
+        "name": "military branch",
+        "description": "branch to which this military unit, award, office, or person belongs"
+    },
+    "P264": {
+        "name": "record label",
+        "description": "brand and trademark associated with the marketing of subject music recordings and music videos"
+    },
+    "P272": {
+        "name": "production company",
+        "description": "company that produced this film, audio or performing arts work"
+    },
+    "P276": {
+        "name": "location",
+        "description": "location of the item, physical object or event is within"
+    },
+    "P279": {
+        "name": "subclass of",
+        "description": "all instances of these items are instances of those items; this item is a class (subset) of that item"
+    },
+    "P355": {
+        "name": "subsidiary",
+        "description": "subsidiary of a company or organization, opposite of parent company"
+    },
+    "P361": {
+        "name": "part of",
+        "description": "object of which the subject is a part. Inverse property of \"has part\""
+    },
+    "P364": {
+        "name": "original language of work",
+        "description": "language in which a film or a performance work was originally created"
+    },
+    "P400": {
+        "name": "platform",
+        "description": "platform for which a work has been developed or released / specific platform version of a software developed"
+    },
+    "P403": {
+        "name": "mouth of the watercourse",
+        "description": "the body of water to which the watercourse drains"
+    },
+    "P449": {
+        "name": "original network",
+        "description": "network(s) the radio or television show was originally aired on, including"
+    },
+    "P463": {
+        "name": "member of",
+        "description": "organization or club to which the subject belongs"
+    },
+    "P488": {
+        "name": "chairperson",
+        "description": "presiding member of an organization, group or body"
+    },
+    "P495": {
+        "name": "country of origin",
+        "description": "country of origin of the creative work or subject item"
+    },
+    "P527": {
+        "name": "has part",
+        "description": "part of this subject. Inverse property of \"part of\""
+    },
+    "P551": {
+        "name": "residence",
+        "description": "the place where the person is, or has been, resident"
+    },
+    "P569": {
+        "name": "date of birth",
+        "description": "date on which the subject was born"
+    },
+    "P570": {
+        "name": "date of death",
+        "description": "date on which the subject died"
+    },
+    "P571": {
+        "name": "inception",
+        "description": "date or point in time when the organization/subject was founded/created"
+    },
+    "P576": {
+        "name": "dissolved, abolished or demolished",
+        "description": "date or point in time on which an organisation was dissolved/disappeared or a building demolished"
+    },
+    "P577": {
+        "name": "publication date",
+        "description": "date or point in time a work is first published or released"
+    },
+    "P580": {
+        "name": "start time",
+        "description": "indicates the time an item begins to exist or a statement starts being valid"
+    },
+    "P582": {
+        "name": "end time",
+        "description": "indicates the time an item ceases to exist or a statement stops being valid"
+    },
+    "P585": {
+        "name": "point in time",
+        "description": "time and date something took place, existed or a statement was true"
+    },
+    "P607": {
+        "name": "conflict",
+        "description": "battles, wars or other military engagements in which the person or item participated"
+    },
+    "P674": {
+        "name": "characters",
+        "description": "characters which appear in this item (like plays, operas, operettas, books, comics, films, TV series, video games)"
+    },
+    "P676": {
+        "name": "lyrics by",
+        "description": "author of song lyrics"
+    },
+    "P706": {
+        "name": "located on terrain feature",
+        "description": "located on the specified landform"
+    },
+    "P710": {
+        "name": "participant",
+        "description": "person, group of people or organization (object) that actively takes/took part in the event (subject)"
+    },
+    "P737": {
+        "name": "influenced by",
+        "description": "this person, idea, etc. is informed by that other person, idea, etc."
+    },
+    "P740": {
+        "name": "location of formation",
+        "description": "location where a group or organization was formed"
+    },
+    "P749": {
+        "name": "parent organization",
+        "description": "parent organization of an organisation, opposite of subsidiaries"
+    },
+    "P800": {
+        "name": "notable work",
+        "description": "notable scientific, artistic or literary work, or other work of significance among subject's works"
+    },
+    "P807": {
+        "name": "separated from",
+        "description": "subject was founded or started by separating from identified object"
+    },
+    "P840": {
+        "name": "narrative location",
+        "description": "the narrative of the work is set in this location"
+    },
+    "P937": {
+        "name": "work location",
+        "description": "location where persons were active"
+    },
+    "P1001": {
+        "name": "applies to jurisdiction",
+        "description": "the item (an institution, law, public office ...) belongs to or has power over or applies to the value (a territorial jurisdiction: a country, state, municipality, ...)"
+    },
+    "P1056": {
+        "name": "product or material produced",
+        "description": "material or product produced by a government agency, business, industry, facility, or process"
+    },
+    "P1198": {
+        "name": "unemployment rate",
+        "description": "portion of a workforce population that is not employed"
+    },
+    "P1336": {
+        "name": "territory claimed by",
+        "description": "administrative divisions that claim control of a given area"
+    },
+    "P1344": {
+        "name": "participant of",
+        "description": "event a person or an organization was a participant in, inverse of \"participant\""
+    },
+    "P1365": {
+        "name": "replaces",
+        "description": "person or item replaced"
+    },
+    "P1366": {
+        "name": "replaced by",
+        "description": "person or item which replaces another"
+    },
+    "P1376": {
+        "name": "capital of",
+        "description": "country, state, department, canton or other administrative division of which the municipality is the governmental seat"
+    },
+    "P1412": {
+        "name": "languages spoken, written or signed",
+        "description": "language(s) that a person speaks or writes, including the native language(s)"
+    },
+    "P1441": {
+        "name": "present in work",
+        "description": "work in which this fictional entity or historical person is present"
+    },
+    "P3373": {
+        "name": "sibling",
+        "description": "the subject has the object as their sibling (brother, sister, etc.)"
+    }
+}

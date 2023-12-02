@@ -1,0 +1,46 @@
+python src/main.py \
+--train_file dataset/train_redocred.json \
+--dev_file dataset/dev_redocred.json \
+--indomain_test_file dataset/test_redocred.json \
+--scierc_test_file dataset/test_scierc.json \
+--indomain_test_indices_file dataset/test_redocred_3_doc_indices.json \
+--scierc_test_indices_file dataset/test_scierc_3_doc_indices.json \
+--cache_data dataset/cache \
+--indomain_relation_info_file meta/rel_info_with_descriptions.json \
+--scierc_relation_info_file meta/scierc_rel_info_with_descriptions.json \
+--model_name_or_path bert-base-cased \
+--checkpoints_dir checkpoints \
+--load_checkpoint checkpoints/refredo_crossdomain_3doc.pt \
+--num_epochs 0 \
+--support_docs_train 3 \
+--support_docs_eval 3 \
+--query_docs_train 1 \
+--query_docs_eval 1 \
+--samples_per_ep 2000 \
+--samples_data_train 50000 \
+--samples_data_dev 500 \
+--balancing_train single \
+--balancing_dev soft \
+--train_batch_size 4 \
+--eval_batch_size 4 \
+--use_markers \
+--ensure_positive \
+--seed_model 42 \
+--seed_data 42 \
+--k_percentage 10 \
+--temperature 0.4 \
+--lamda 0.1 \
+--train_num_classes 1 \
+--dev_num_classes 2 \
+--test_indomain_num_classes 2 \
+--test_scierc_num_classes 2 \
+--distance_metric dot_product \
+--base_nota_num 20 \
+--nota_rectification_factor 0.05 \
+--encoder_lr 1e-5 \
+--attention_lr 1e-5 \
+--mlp_lr 1e-5 \
+--nota_lr 1e-5 \
+--warmup_epochs 1 \
+--test_domain crossdomain \
+--project RAPL
