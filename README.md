@@ -16,7 +16,7 @@ This repository contains the data, code and trained models for paper [RAPL: A Re
 
 ## Overview
 
-![](E:/Lab/MyFSDLRE论文/RAPL_github/clean/model.png)
+![](model.png)
 
 In this work, we present a relation-aware prototype learning method (RAPL) for few-shot document-level relation extraction. We reframe the construction of relation prototypes into instance level and further propose a relation-weighted contrastive learning method to jointly refine the relation prototypes. We also design a task-specific NOTA prototype generation strategy to better capture the NOTA semantics in each task.
 
