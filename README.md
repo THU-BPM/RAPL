@@ -1,6 +1,6 @@
 # RAPL: Relation-Aware Prototype Learning for Few-Shot DocRE
 
-This repository contains the data, code and trained models for paper [RAPL: A Relation-Aware Prototype Learning Approach for Few-Shot Document-Level Relation Extraction](https://arxiv.org/abs/2310.15743).
+This repository contains the data, code and trained models for paper [RAPL: A Relation-Aware Prototype Learning Approach for Few-Shot Document-Level Relation Extraction](https://aclanthology.org/2023.emnlp-main.316/).
 
 ## Quick Links
 
@@ -20,7 +20,7 @@ This repository contains the data, code and trained models for paper [RAPL: A Re
 
 In this work, we present a relation-aware prototype learning method (RAPL) for few-shot document-level relation extraction. We reframe the construction of relation prototypes into instance level and further propose a relation-weighted contrastive learning method to jointly refine the relation prototypes. We also design a task-specific NOTA prototype generation strategy to better capture the NOTA semantics in each task.
 
-You can find more details of this work in our [paper](https://arxiv.org/abs/2310.15743).
+You can find more details of this work in our [paper](https://aclanthology.org/2023.emnlp-main.316/).
 
 ## Setup
 
@@ -28,13 +28,13 @@ You can find more details of this work in our [paper](https://arxiv.org/abs/2310
 
 To run the code, please install the following dependency packages:
 
-- apex
-- numpy
-- opt_einsum
-- torch
-- tqdm
-- transformers
-- wandb
+- apex (experiment on 0.1)
+- numpy (experiment on 1.19.4)
+- opt_einsum (experiment on 3.3.0)
+- torch (experiment on 1.9.0+cu111)
+- tqdm (experiment on 4.64.0)
+- transformers (experiment on 3.4.0)
+- wandb (experiment on 0.12.21)
 
 ### Trained models
 
@@ -77,11 +77,20 @@ python src/main.py -h
 Please kindly cite our paper if you use the data, code or models of RAPL in your work:
 
 ```bibtex
-@article{meng2023rapl,
-  title={RAPL: A Relation-Aware Prototype Learning Approach for Few-Shot Document-Level Relation Extraction},
-  author={Meng, Shiao and Hu, Xuming and Liu, Aiwei and Li, Shu'ang and Ma, Fukun and Yang, Yawen and Wen, Lijie},
-  journal={arXiv preprint arXiv:2310.15743},
-  year={2023}
+@inproceedings{meng-etal-2023-rapl,
+    title = "{RAPL}: A Relation-Aware Prototype Learning Approach for Few-Shot Document-Level Relation Extraction",
+    author = "Meng, Shiao  and
+      Hu, Xuming  and
+      Liu, Aiwei  and
+      Li, Shuang  and
+      Ma, Fukun  and
+      Yang, Yawen  and
+      Wen, Lijie",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    year = "2023",
+    url = "https://aclanthology.org/2023.emnlp-main.316",
+    doi = "10.18653/v1/2023.emnlp-main.316",
+    pages = "5208--5226"
 }
 ```
 
